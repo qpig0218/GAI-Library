@@ -73,13 +73,13 @@
     <nav class="sticky top-0 bg-white/80 backdrop-blur-md z-10 shadow-sm">
         <div class="container mx-auto px-4">
             <div class="flex justify-center items-center space-x-4 md:space-x-8 py-3 overflow-x-auto">
-                <a href="#section-1" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">開端</a>
-                <a href="#section-2" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">角色演進</a>
-                <a href="#section-3" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">技能轉型</a>
-                <a href="#section-4" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">風險與守護</a>
-                <a href="#section-5" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">美台比較</a>
-                <a href="#section-6" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">價值倒置</a>
-                <a href="#section-7" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">策略藍圖</a>
+                <a href="section-1.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">開端</a>
+                <a href="section-2.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">角色演進</a>
+                <a href="section-3.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">技能轉型</a>
+                <a href="section-4.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">風險與守護</a>
+                <a href="section-5.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">美台比較</a>
+                <a href="section-6.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">價值倒置</a>
+                <a href="section-7.html" class="nav-button font-medium text-gray-600 hover:text-red-600 pb-2">策略藍圖</a>
             </div>
         </div>
     </nav>
@@ -91,153 +91,39 @@
         </header>
 
         <main class="space-y-16 md:space-y-24">
-            
-            <section id="section-1" class="card text-center scroll-mt-24">
-                <h2 class="text-xl font-semibold text-gray-500 mb-2">開端：一個無法忽視的轉捩點</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto mb-6">生成式AI已非未來趨勢，而是當下現實。在美國，醫學圖書館員的採納率已領先所有醫療專業類別，這股由專業社群由下而上引領的變革浪潮，正以前所未有的速度重塑資訊服務的樣貌。</p>
-                <div class="kpi-number">53%</div>
-                <p class="text-xl md:text-2xl mt-2 font-bold text-gray-700">的美國醫學圖書館員已在工作中使用生成式AI</p>
-                <p class="text-sm text-gray-500 mt-2">資料來源: 2025年調查 [37]</p>
-            </section>
-
-            <section id="section-2" class="scroll-mt-24">
-                <h2 class="text-3xl font-bold mb-4 text-center">角色演進：新一代的資訊專家</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto mb-10 text-center">AI自動化了重複性任務，將圖書館員從傳統的資訊檢索者，提升為更高價值的策略性角色。這不僅是工具的改變，更是專業價值的根本性重塑，催生了三個關鍵新角色。</p>
-                <div class="flex flex-col md:flex-row justify-center items-stretch space-y-8 md:space-y-0 md:space-x-4">
-                    <div class="flex-1 card text-center">
-                        <h3 class="text-xl font-bold mb-2 accent-text">資訊架構師</h3>
-                        <p class="text-gray-600">設計、建構並優化機構的整體知識生態系統，確保資訊流動的高效與可靠。</p>
-                    </div>
-                    <div class="flow-arrow hidden md:flex">+</div>
-                    <div class="flex-1 card text-center">
-                        <h3 class="text-xl font-bold mb-2 accent-text">AI管理者與評估者</h3>
-                        <p class="text-gray-600">批判性地評估AI工具的數據基礎、倫理框架與內容可信度，成為機構的「AI壓力測試專家」。</p>
-                    </div>
-                    <div class="flow-arrow hidden md:flex">+</div>
-                    <div class="flex-1 card text-center">
-                        <h3 class="text-xl font-bold mb-2 accent-text">專業級詠唱工程師</h3>
-                        <p class="text-gray-600">掌握結構化詠唱框架(如TCEPFT)，引導AI生成精確、可靠且符合臨床情境的答案。</p>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="section-3" class="card scroll-mt-24">
-                <h2 class="text-3xl font-bold mb-4 text-center">技能轉型：面向未來的職能矩陣</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto mb-8 text-center">AI整合要求傳統職能全面升級。下圖比較了AI導入前後，圖書館員在四大核心職能上的概念性精力投入分配變化，突顯了從「檢索」到「評估與治理」的價值轉移。</p>
-                <div class="chart-container">
-                    <canvas id="skillsChart"></canvas>
-                </div>
-            </section>
-
-            <section id="section-4" class="scroll-mt-24">
-                <h2 class="text-3xl font-bold mb-4 text-center">風險與守護：誠信的關鍵防線</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto mb-10 text-center">AI的強大能力伴隨著巨大風險。圖書館員憑藉其批判性評估的核心技能，成為防範這些風險、確保資訊品質的關鍵守護者。</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="card text-center">
-                        <div class="risk-icon">👻</div>
-                        <h3 class="text-xl font-bold mb-2">數據準確性與「幻覺」</h3>
-                        <p class="text-gray-600">AI可能產生完全錯誤或捏造的資訊。圖書館員負責驗證AI產出的內容，防止錯誤資訊在臨床環境中造成危害。</p>
-                    </div>
-                    <div class="card text-center">
-                        <div class="risk-icon">⚖️</div>
-                        <h3 class="text-xl font-bold mb-2">演算法偏見</h3>
-                        <p class="text-gray-600">若訓練數據存在偏見，AI會放大健康不平等。圖書館員需評估並識別潛在偏見，倡導公平的AI應用。</p>
-                    </div>
-                    <div class="card text-center">
-                        <div class="risk-icon">🔒</div>
-                        <h3 class="text-xl font-bold mb-2">隱私與安全</h3>
-                        <p class="text-gray-600">使用病患數據涉及嚴峻的隱私風險。圖書館員協助建立合規的數據使用規範，保護敏感資訊。</p>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="section-5" class="card scroll-mt-24">
-                <h2 class="text-3xl font-bold mb-4 text-center">全球視野：美國 vs. 台灣的發展路徑</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto mb-8 text-center">美台兩地展現了不同的AI採納模式。美國由專業社群由下而上推動，展現高度的專業主動性；台灣則更多地由國家與大型機構由上而下驅動，聚焦系統性整合。這為兩地的發展策略帶來了不同的機遇與挑戰。</p>
-                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                    <div class="chart-container h-[400px] md:h-[450px]">
-                        <canvas id="comparisonChart"></canvas>
-                    </div>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-sm text-left">
-                            <thead class="bg-gray-50">
-                                <tr>
-                                    <th class="p-3 font-semibold text-gray-700">指標</th>
-                                    <th class="p-3 font-semibold text-gray-700">美國 (專業驅動型)</th>
-                                    <th class="p-3 font-semibold text-gray-700">台灣 (系統驅動型)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-200">
-                                <tr class="hover:bg-gray-50">
-                                    <td class="p-3 font-medium">圖書館員採納率</td>
-                                    <td class="p-3">高 (53%)，由下而上</td>
-                                    <td class="p-3">待測，由上而下</td>
-                                </tr>
-                                <tr class="hover:bg-gray-50">
-                                    <td class="p-3 font-medium">專業組織立場</td>
-                                    <td class="p-3">策略性領導 (MLA)</td>
-                                    <td class="p-3">哲學倡導，機構推動</td>
-                                </tr>
-                                <tr class="hover:bg-gray-50">
-                                    <td class="p-3 font-medium">政府/國家策略</td>
-                                    <td class="p-3">側重法規 (HIPAA)</td>
-                                    <td class="p-3">強力推動 (健康大數據)</td>
-                                </tr>
-                                <tr class="hover:bg-gray-50">
-                                    <td class="p-3 font-medium">關鍵機遇</td>
-                                    <td class="p-3">為全球設下專業標準</td>
-                                    <td class="p-3">與數據科學團隊深度合作</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </section>
-
-            <section id="section-6" class="card bg-gray-800 text-white scroll-mt-24">
-                 <h2 class="text-3xl font-bold mb-4 text-center">價值倒置：演化，而非滅絕</h2>
-                 <p class="text-gray-300 max-w-3xl mx-auto mb-8 text-center">當AI使資訊<span class="text-green-400">獲取</span>的技術門檻降低時，<span class="text-red-400">驗證</span>其可靠性的認知與倫理門檻卻急劇升高。圖書館員的價值不再是操作複雜系統，而是成為高風險環境中資訊品質的最終守護者。</p>
-                <div class="flex flex-col md:flex-row justify-around items-center space-y-6 md:space-y-0 p-6 rounded-lg bg-gray-900">
-                    <div class="text-center">
-                        <p class="text-gray-400 text-lg">過去的價值</p>
-                        <p class="text-2xl font-bold text-gray-500">精通複雜的檢索系統</p>
-                    </div>
-                    <div class="text-5xl font-bold text-gray-600 animate-pulse transform md:-rotate-90">↓</div>
-                    <div class="text-center">
-                        <p class="text-lg font-semibold text-red-400">現在的核心價值</p>
-                        <p class="text-2xl font-bold text-white">批判性評估與倫理判斷</p>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="section-7" class="scroll-mt-24">
-                <h2 class="text-3xl font-bold mb-4 text-center">策略藍圖：邁向未來的行動方針</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto mb-10 text-center">面對AI浪潮，所有利害關係人都需採取積極行動。這是一份為個人、機構領導層及專業教育單位設計的策略藍圖。</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="card">
-                        <h3 class="text-xl font-bold mb-3 accent-text">對個別專業人員</h3>
-                        <ul class="space-y-2 list-disc list-inside text-gray-700">
-                            <li>擁抱終身學習，採納創新哲學。</li>
-                            <li>主動尋求AI素養與詠唱工程培訓。</li>
-                            <li>深化特定臨床或研究領域的專長。</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3 class="text-xl font-bold mb-3 accent-text">對醫院與圖書館領導層</h3>
-                        <ul class="space-y-2 list-disc list-inside text-gray-700">
-                            <li>盡快制定正式的AI倫理與使用政策。</li>
-                            <li>將館員AI培訓視為對病患安全的投資。</li>
-                            <li>將館員納入AI技術治理委員會。</li>
-                        </ul>
-                    </div>
-                     <div class="card">
-                        <h3 class="text-xl font-bold mb-3 accent-text">對專業與教育機構</h3>
-                        <ul class="space-y-2 list-disc list-inside text-gray-700">
-                            <li>更新圖書館學課程，納入AI核心技能。</li>
-                            <li>開發「健康資訊AI應用」等進階認證。</li>
-                            <li>加強倡議，提升專業在AI時代的能見度。</li>
-                        </ul>
-                    </div>
+            <section class="card text-center">
+                <h2 class="text-3xl font-bold mb-4">歡迎來到互動報告</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto mb-8">這份報告探討生成式AI對醫院圖書館的革命性影響。請點擊上方的頁籤，深入了解各個主題。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+                    <a href="section-1.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">開端</h3>
+                        <p class="text-gray-600">一個無法忽視的轉捩點</p>
+                    </a>
+                    <a href="section-2.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">角色演進</h3>
+                        <p class="text-gray-600">新一代的資訊專家</p>
+                    </a>
+                    <a href="section-3.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">技能轉型</h3>
+                        <p class="text-gray-600">面向未來的職能矩陣</p>
+                    </a>
+                    <a href="section-4.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">風險與守護</h3>
+                        <p class="text-gray-600">誠信的關鍵防線</p>
+                    </a>
+                    <a href="section-5.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">美台比較</h3>
+                        <p class="text-gray-600">全球視野的發展路徑</p>
+                    </a>
+                    <a href="section-6.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">價值倒置</h3>
+                        <p class="text-gray-600">演化，而非滅絕</p>
+                    </a>
+                    <a href="section-7.html" class="card hover:shadow-lg transition-shadow duration-300 text-left">
+                        <h3 class="text-xl font-bold mb-2 accent-text">策略藍圖</h3>
+                        <p class="text-gray-600">邁向未來的行動方針</p>
+                    </a>
                 </div>
             </section>
         </main>
@@ -248,145 +134,7 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const wrapLabel = (str, maxWidth = 16) => {
-                if (typeof str !== 'string' || str.length <= maxWidth) {
-                    return str;
-                }
-                const words = str.split(' ');
-                if (words.length === 1) return str;
-                const lines = [];
-                let currentLine = words[0];
-                for (let i = 1; i < words.length; i++) {
-                    if ((currentLine + " " + words[i]).length > maxWidth) {
-                        lines.push(currentLine);
-                        currentLine = words[i];
-                    } else {
-                        currentLine += " " + words[i];
-                    }
-                }
-                lines.push(currentLine);
-                return lines;
-            };
-            
-            const tooltipConfig = {
-                plugins: {
-                    tooltip: {
-                        callbacks: {
-                            title: function(tooltipItems) {
-                                const item = tooltipItems[0];
-                                if (!item) return '';
-                                let label = item.chart.data.labels[item.dataIndex];
-                                if (Array.isArray(label)) {
-                                  return label.join(' ');
-                                }
-                                return label;
-                            }
-                        }
-                    }
-                }
-            };
-
-            const skillsChartCtx = document.getElementById('skillsChart')?.getContext('2d');
-            if(skillsChartCtx) {
-                const skillsLabels = [
-                    '資訊檢索', 
-                    '館藏發展', 
-                    '使用者教學', 
-                    'AI評估與治理'
-                ];
-                new Chart(skillsChartCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: skillsLabels.map(label => wrapLabel(label, 16)),
-                        datasets: [
-                            {
-                                label: '傳統精力投入',
-                                data: [45, 25, 25, 5],
-                                backgroundColor: '#B0B0B0',
-                            },
-                            {
-                                label: 'AI整合後精力投入',
-                                data: [15, 20, 30, 35],
-                                backgroundColor: '#5CB85C',
-                            }
-                        ]
-                    },
-                    options: {
-                        maintainAspectRatio: false,
-                        responsive: true,
-                        scales: {
-                            y: { beginAtZero: true, title: { display: true, text: '概念性精力投入 (%)' } },
-                            x: { ticks: { maxRotation: 0, minRotation: 0 } }
-                        },
-                        plugins: tooltipConfig.plugins
-                    }
-                });
-            }
-
-            const comparisonChartCtx = document.getElementById('comparisonChart')?.getContext('2d');
-            if (comparisonChartCtx) {
-                 const comparisonLabels = [ '圖書館員採納率', '專業組織領導', '國家策略推動', '指標性計畫', 'AI倫理指導' ];
-                new Chart(comparisonChartCtx, {
-                    type: 'radar',
-                    data: {
-                        labels: comparisonLabels.map(label => wrapLabel(label, 16)),
-                        datasets: [{
-                            label: '美國 (專業驅動)',
-                            data: [5, 5, 2, 4, 4],
-                            fill: true,
-                            backgroundColor: 'rgba(217, 83, 79, 0.2)',
-                            borderColor: '#D9534F',
-                            pointBackgroundColor: '#D9534F',
-                        }, {
-                            label: '台灣 (系統驅動)',
-                            data: [3, 2, 5, 4, 3],
-                            fill: true,
-                            backgroundColor: 'rgba(92, 184, 92, 0.2)',
-                            borderColor: '#5CB85C',
-                            pointBackgroundColor: '#5CB85C',
-                        }]
-                    },
-                    options: {
-                        maintainAspectRatio: false,
-                        responsive: true,
-                        scales: {
-                            r: {
-                                beginAtZero: true,
-                                max: 5,
-                                stepSize: 1,
-                                pointLabels: { font: { size: 12 } }
-                            }
-                        },
-                        plugins: tooltipConfig.plugins
-                    }
-                });
-            }
-
-            const navLinks = document.querySelectorAll('.nav-button');
-            const sections = document.querySelectorAll('section');
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        navLinks.forEach(link => {
-                            link.classList.toggle('active', link.getAttribute('href').substring(1) === entry.target.id);
-                        });
-                    }
-                });
-            }, { rootMargin: '-50% 0px -50% 0px' });
-
-            sections.forEach(section => observer.observe(section));
-            
-            navLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    document.querySelector(link.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
+        // No additional JavaScript needed for the landing page
     </script>
 </body>
 </html>
